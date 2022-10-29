@@ -16,6 +16,8 @@
 
 MEtcd（已实现） 一种服务器状态上报插件 https://github.com/Agenda-Minecraft/MEtcd
 
+MEtcd-Menu（正在从MEtcd分离） 一种通过MEtcd来渲染服务器菜单列表的插件 https://github.com/Agenda-Minecraft/MEtcd-Menu
+
 ATP（暂未） 一种使用消息队列的跨服传送插件 https://github.com/Agenda-Minecraft/ATP
 
 ABCRegister （暂未）一种使用Etcd向BungeeCord动态添加服务的插件 https://github.com/Agenda-Minecraft/ABCRegister
