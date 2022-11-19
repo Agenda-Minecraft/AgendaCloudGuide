@@ -6,9 +6,13 @@
 
 闲的
 
+## 为什么不用k8s API
+
+为了保证插件在没有 k8s 的情况下也能使用，故不使用 k8s api
+
 ## 需要掌握的预备知识
 
-搭建Kubenetes 搭建Etcd 有一定的k8s运维经验 制作容器镜像 Vpn服务搭建
+搭建Kubenetes 搭建Etcd 有一定的 k8s 或 docker swarm 运维经验 制作容器镜像 Vpn服务搭建
 
 ## 组件
 
@@ -20,7 +24,7 @@ MEtcd-Menu（优化渲染） 一种通过MEtcd来渲染服务器菜单列表的�
 
 ATP（只实现了跨服） 一种使用消息队列的跨服传送插件 https://github.com/Agenda-Minecraft/ATP
 
-ABCRegister （差个轮询）一种使用Etcd向BungeeCord动态添加服务的插件 https://github.com/Agenda-Minecraft/ABCRegister
+ABCRegister （已实现）一种使用Etcd向BungeeCord动态添加服务的插件 https://github.com/Agenda-Minecraft/ABCRegister
 
 ### 聊天
 
@@ -34,7 +38,11 @@ UIS（已实现）一种可以使用多种数据库（包括tidb）的商店插�
 
 ### 娱乐
 
+#### MinuteRush
 MinuteRush（实现了一小部分）一种完成任务的小游戏插件https://github.com/Agenda-Minecraft/MinuteRush
+
+UHCReloaded（付费的 UHC 插件）https://www.spigotmc.org/resources/uhcreloaded-%E2%9C%85-designed-for-networks-small-servers.2900/
+UHCReloaded-MEtcd（UHCReloaded MEtcd 兼容插件）Patchhttps://github.com/Agenda-Minecraft/UHCReloaded-MEtcdPatch
 
 ## 如何暴露服务
 
