@@ -34,7 +34,7 @@ AgendaAntiSpam（聊天频率控制，打算迁移到Etcd）一种使用Redis实
 
 ### 经济
 
-UIS（已实现）一种可以使用多种数据库（包括tidb）的商店插件https://github.com/Agenda-Minecraft/UltimateInventoryShop
+UIS（已实现）一种可以使用多种数据库（包括tidb）的商店插件 https://github.com/Agenda-Minecraft/UltimateInventoryShop
 
 ### 娱乐
 
@@ -42,7 +42,7 @@ UIS（已实现）一种可以使用多种数据库（包括tidb）的商店插�
 MinuteRush（实现了一小部分）一种完成任务的小游戏插件https://github.com/Agenda-Minecraft/MinuteRush
 
 UHCReloaded（付费的 UHC 插件）https://www.spigotmc.org/resources/uhcreloaded-%E2%9C%85-designed-for-networks-small-servers.2900/
-UHCReloaded-MEtcd（UHCReloaded MEtcd 兼容插件）Patchhttps://github.com/Agenda-Minecraft/UHCReloaded-MEtcdPatch
+UHCReloaded-MEtcd（UHCReloaded MEtcd 兼容插件）Patch https://github.com/Agenda-Minecraft/UHCReloaded-MEtcdPatch
 
 ## 如何暴露服务
 
