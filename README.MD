@@ -12,25 +12,25 @@
 
 ## 需要掌握的预备知识
 
-搭建Kubenetes 搭建Etcd 有一定的 k8s 或 docker swarm 运维经验 制作容器镜像 Vpn服务搭建
+搭建Kubenetes 搭建 Consul 有一定的 k8s 或 docker swarm 运维经验 制作容器镜像
 
 ## 组件
 
 ### 基础组件
 
-MEtcd（已实现） 一种服务器状态上报插件 https://github.com/Agenda-Minecraft/MEtcd
+AgendaCloud（已实现） 一种服务器状态上报插件 https://github.com/Agenda-Minecraft/AgendaCloud
 
-MEtcd-Menu（优化渲染） 一种通过MEtcd来渲染服务器菜单列表的插件 https://github.com/Agenda-Minecraft/MEtcd-Menu
+AgendaCloud-Menu（优化渲染） 一种通过Consul来渲染服务器菜单列表的插件 https://github.com/Agenda-Minecraft/AgendaCloud-Menu
 
 ATP（只实现了跨服） 一种使用消息队列的跨服传送插件 https://github.com/Agenda-Minecraft/ATP
 
-ABCRegister （已实现）一种使用Etcd向BungeeCord动态添加服务的插件 https://github.com/Agenda-Minecraft/ABCRegister
+ABCRegister （已实现）一种使用Consul向BungeeCord动态添加服务的插件 https://github.com/Agenda-Minecraft/ABCRegister
 
 ### 聊天
 
 EtcdChat（已实现）一种使用Etcd的，可以订阅频道的聊天插件 https://github.com/Agenda-Minecraft/EtcdChat
 
-AgendaAntiSpam（聊天频率控制，打算迁移到Etcd）一种使用Redis实现聊天频率控制的插件[https://github.com/Agenda-Minecraft/AgendaAntiSpam](https://github.com/Agenda-Minecraft/AgendaAntiSpam)
+AgendaAntiSpam（聊天频率控制，Redis）一种使用Redis实现聊天频率控制的插件[https://github.com/Agenda-Minecraft/AgendaAntiSpam](https://github.com/Agenda-Minecraft/AgendaAntiSpam)
 
 ### 经济
 
@@ -42,7 +42,7 @@ UIS（已实现）一种可以使用多种数据库（包括tidb）的商店插�
 MinuteRush（实现了一小部分）一种完成任务的小游戏插件https://github.com/Agenda-Minecraft/MinuteRush
 
 UHCReloaded（付费的 UHC 插件）https://www.spigotmc.org/resources/uhcreloaded-%E2%9C%85-designed-for-networks-small-servers.2900/
-UHCReloaded-MEtcd（UHCReloaded MEtcd 兼容插件）Patch https://github.com/Agenda-Minecraft/UHCReloaded-MEtcdPatch
+UHCReloaded-Consul（UHCReloaded Consul 兼容插件）Patch https://github.com/Agenda-Minecraft/UHCReloaded-ACloudPatch
 
 ## 如何暴露服务
 
