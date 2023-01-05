@@ -18,6 +18,8 @@
 
 ### 基础组件
 
+AgendaLib（已实现） 依赖库https://github.com/Agenda-Minecraft/AgendaLib
+
 AgendaCloud（已实现） 一种服务器状态上报插件 https://github.com/Agenda-Minecraft/AgendaCloud
 
 AgendaCloud-Menu（优化渲染） 一种通过Consul来渲染服务器菜单列表的插件 https://github.com/Agenda-Minecraft/AgendaCloud-Menu
